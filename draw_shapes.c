@@ -30,6 +30,7 @@ void print_triangle(int leftCol, int size)
 void print_arrow(int leftColTri, int sizeTri, int leftColSq, int sizeSq)
 {
   print_triangle(leftColTri,sizeTri);
-  print_square(leftColSq, sizeSq);
-  print_square(leftColSq, sizeSq);
+  for(int i = 0;i < 2;i++) {
+    print_square(leftColSq, sizeSq);
+  }
 }
