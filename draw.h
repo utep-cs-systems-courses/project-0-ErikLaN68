@@ -6,6 +6,7 @@ void print_square(int startCol, int size);
 void print_arrow(int leftColTri, int sizeTri, int leftColSq, int sizeSq);
 void print_char_11x16(char c);
 void print_char_8x12(char c);
+void print_char_5x7(char c);
 
 extern const unsigned short font_11x16[95][11];
 extern const unsigned char font_5x7[96][5];
