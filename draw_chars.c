@@ -18,10 +18,9 @@ void print_char_11x16(char c)
 
 void print_char_8x12(char c)
 {
-  c -= 0x20;
   /* This font is oriented differently than the other files which changes how the for loops work.
   Needs to run all 12 rows and then read through 8 bits of info to make the character */
-  
+  c -= 0x20;
   for (char row = 0; row < 12; row++) {
     unsigned short rowBits = font_8x12[c][row];
     for (char col = 0; col < 8; col++) {
