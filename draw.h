@@ -3,7 +3,7 @@
 
 void print_triangle(int startCol, int size);
 void print_square(int startCol, int size);
-void print_arrow(int leftColTri, int sizeTri, int leftColSq, int sizeSq);
+void print_arrow(int leftCol, int size);
 void print_char_11x16(char c);
 void print_char_8x12(char c);
 void print_char_5x7(char c);

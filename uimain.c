@@ -26,7 +26,7 @@ int main()
       break;
     case 'a':
       puts("You selected arrow:");
-      print_arrow(5,7,10,5);
+      print_arrow(4,6);
       break;
     case 'c':
       puts("You selected chars11x16:");

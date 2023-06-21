@@ -26,11 +26,11 @@ void print_triangle(int leftCol, int size)
   }
 }
 
-// Will be the function that prints the arrow
-void print_arrow(int leftColTri, int sizeTri, int leftColSq, int sizeSq)
+// Prints a arrow using the given leftCol start and size variables.
+void print_arrow(int leftCol, int size)
 {
-  print_triangle(leftColTri,sizeTri);
+  print_triangle(leftCol,size);
   for(int i = 0;i < 2;i++) {
-    print_square(leftColSq, sizeSq);
+    print_square(leftCol*2,(size/2)+2);
   }
 }
